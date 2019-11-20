@@ -1,0 +1,404 @@
+.h1 {
+  top: 40px;
+  position: relative;
+  margin: 0 auto;
+  width: 500px;
+  color: white;
+  font-size: 72px;
+  text-align: bottom center;
+  font-weight: 600;
+  border: 5px double white;
+  font-family: 'Black Ops One', cursive;
+}
+
+.h2 {
+	font-family: 'Lobster', cursive;
+	position: releative;
+	font-size: 45px;
+	color: goldenrod;
+	
+}
+
+.h {
+	font-family: 'Lobster', cursive;
+	position: releative;
+	font-size: 30px;
+	color: goldenrod;
+	
+}
+
+.p {
+	font-family: 'Inconsolata', monospace;
+	position: relative;
+	font-size: 20px;
+}
+
+.p2 {
+	font-family: 'Supermercado One', cursive;
+	position: relative;
+	font-size: 20px;
+}
+
+.img {
+	float: right;
+	width: 250px;
+	height: 250px;
+	border: 2px solid black;
+}
+
+/* Grid layout fo the first sight */
+
+.grid {
+  border: 2px black solid;
+  width: 100%px;
+  height: 1500px;
+  display:grid;
+  padding: 10px;
+  grid-gap: 5px;
+  grid-template: repeat (3, 1fr) / 3fr repeat(4, 3fr 2fr);
+}
+
+.box {
+	background-color: white;
+	color: black;
+	border-radius: 5px;
+	border: 2px black solid;
+}
+
+.a {
+	background-image: url("https://teddingtonlegal.com.au/wp-content/uploads/2016/12/immigration-banner.jpg");
+	background-position: center;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.c {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}
+
+.d {
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 2;
+	grid-row-end: 5;
+}
+
+.e {
+	background-image: url("https://teddingtonlegal.com.au/wp-content/uploads/2016/12/immigration-banner.jpg");
+	background-position: center;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 5;
+	grid-row-end: 5;
+}
+
+.f {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
+
+/* Grid layout for the rest of the pages*/
+.h11 {
+  top: 25px;
+  position: relative;
+  margin: 0 auto;
+  width: 500px;
+  color: white;
+  font-size: 72px;
+  text-align: bottom center;
+  font-weight: 600;
+  border: 5px double white;
+  font-family: 'Black Ops One', cursive;
+}
+
+.h12 {
+  font-family: 'Bebas Neue', cursive;
+  position: center;
+  font-size: 45px;
+  color: goldenrod;
+}
+
+.h13 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 45px;
+  color: white;
+  border:  3px dotted black;
+  position: relative;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-align: Center;
+}
+
+.grid2 {
+  display:grid;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  grid-gap: 2px;
+  grid-template-columns: repeat (12, 1fr);
+  grid-template-rows: 150px 150px 150px 275px 175px 275px 100px;
+  grid-template-areas:
+	"a a a a a a a a a a a a"
+	"a a a a a a a a a a a a"
+	"a a a a a a a a a a a a"
+	"e e e e c c c c c c c c"
+	"b b b b c c c c c c c c"
+	"b b b b c c c c c c c c "
+	"f f f f f f f f f f f f"
+}
+.a2{
+	grid-area: a;
+	background-image: url("https://teddingtonlegal.com.au/wp-content/uploads/2016/12/immigration-banner.jpg");
+	background-position: center;
+}
+
+.b1{
+	grid-area: b;
+	background-image: url("https://media4.s-nbcnews.com/j/newscms/2019_46/3097486/191112-daca-protest-ew-515p_1f96130a59704c4a2faf43af778017cb.fit-1000w.jpg");
+	background-position: center;
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.b2{
+	grid-area: b;
+}
+
+.b6{
+	grid-area: b;
+	background-image: url("https://www.pewresearch.org/wp-content/uploads/2019/06/FT_19.06.03_KeyFactsImmigrants_us-immigrants-strength-burden.png?resize=310,387");
+	background-position: center;
+}
+
+.c2{
+	grid-area: c;
+}
+
+.e1{
+	grid-area: e;
+}
+
+.e2{
+	grid-area: e;
+	background-color: #ADD8E6;
+}
+
+.e6{
+	grid-area: e;
+	background-image: url("https://assets.pewresearch.org/wp-content/uploads/sites/7/2010/10/2010-illegal-immigration-01.png");
+	background-position: center;
+}
+
+.f2{
+	grid-area: f;
+	background-image: url("https://teddingtonlegal.com.au/wp-content/uploads/2016/12/immigration-banner.jpg");
+	background-position: center;
+}
+
+.box2 {
+	background-color: white;
+	color: black;
+	border-radius: 5px;
+	border: 2px black solid;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/* Code for the button or toolbar*/
+
+.button {
+  position: relative;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 auto;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+   left: 30%;
+   float: left;
+   top: 30px;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  padding: 10px 24px;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 24px;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+  padding: 10px 24px;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+  padding: 10px 24px;
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+  padding: 10px 24px;
+}
+
+.button3:hover {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 24px;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid gray;
+  padding: 10px 24px;
+}
+
+.button4:hover {
+	background-color: gray;
+	padding: 10px 24px;
+	color: white;
+}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  padding: 10px 24px;
+}
+
+.button5:hover {
+  background-color: #555555;
+  color: white;
+  padding: 10px 24px;
+}
+
+.button6 {
+  background-color: white;
+  color: black;
+  border: 2px solid pink;
+  padding: 10px 24px;
+}
+
+.button6:hover {
+  background-color: pink;
+  color: white;
+  padding: 10px 24px;
+}
